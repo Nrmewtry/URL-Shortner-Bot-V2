@@ -20,7 +20,7 @@ class Database:
     
     def __init__(
 	self,
-	url=os.mongodb+srv://tryit:Try!1233@cluster0.afuhrkj.mongodb.net/?retryWrites=true&w=majority,
+	url=mongodb+srv://tryit:Try!1233@cluster0.afuhrkj.mongodb.net/?retryWrites=true&w=majority,
 	database_name="FnURLShortBot"
     ):
         self._client = motor.motor_asyncio.AsyncIOMotorClient(url)
