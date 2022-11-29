@@ -6,7 +6,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, InlineQue
 from pyshorteners import Shortener
 
 
-BITLY_API = os.environ.get("BITLY_API", None)
+BITLY_API = 5d5c29d547a82c0f01595033faf163b0878b1f07
 CUTTLY_API = os.environ.get("CUTTLY_API", None)
 SHORTCM_API = os.environ.get("SHORTCM_API", None)
 GPLINKS_API = os.environ.get("GPLINKS_API", None)
